@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.oval {
+  clip-path: ellipse(57% 56% at 49% 25%);
+}
+
+.ovalSm { 
+  clip-path: ellipse(57% 28% at 49% 25%);
+}
+.customInput::placeholder {
+  color: white; /* Change this to your desired color */
+  opacity: 1; /* Ensure full opacity */
+}
+
+/* For better browser compatibility */
+.customInput:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+
+.customInput::-ms-input-placeholder { /* Edge */
+  color: white;
+}
+
+@media (max-width: 640px) { /* Adjust for small devices */
+  .oval { 
+    clip-path: ellipse(57% 28% at 49% 25%);
+  }
+}
