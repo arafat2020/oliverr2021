@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         openSans: ['Open Sans', 'serif'],
       },
+      screens:{
+        xmd:'1024px'
+      }
     },
   },
   plugins: [],

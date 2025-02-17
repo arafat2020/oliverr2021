@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 .oval {
-  clip-path: ellipse(57% 56% at 49% 25%);
+  clip-path: ellipse(57% 26% at 49% 25%);
 }
 
 .ovalSm { 
