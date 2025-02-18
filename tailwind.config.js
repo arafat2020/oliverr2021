@@ -10,7 +10,7 @@ export default {
         openSans: ['Open Sans', 'serif'],
       },
       screens:{
-        xmd:'1024px'
+        xmd:'1040px'
       }
     },
   },
