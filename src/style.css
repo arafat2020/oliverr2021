@@ -17,6 +17,9 @@ html {
   opacity: 1; /* Ensure full opacity */
 }
 
+.custom-shadow {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+}
 /* For better browser compatibility */
 .customInput:-ms-input-placeholder { /* IE 10+ */
   color: white;
@@ -30,4 +33,20 @@ html {
   .oval { 
     clip-path: ellipse(57% 28% at 49% 25%);
   }
+}
+@media (max-height: 500px) { /* Adjust for small devices */
+  .oval {
+    clip-path:  ellipse(67% 40% at 49% 34%);
+}
+
+}
+@media (max-height: 765px) { /* Adjust for small devices */
+  .oval {
+    clip-path: ellipse(57% 34% at 49% 34%);
+}
+
+.control {
+  padding: 10px;
+}
+.controlh2{ font-size: 30px !important; padding-bottom: 10px; }
 }
