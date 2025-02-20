@@ -18,43 +18,43 @@
     <!-- ======================================= -->
     <!-- Hero Section start -->
     <!-- ======================================= -->
-    <section class="w-full relative xmd:h-screen flex flex-col pb-10">
+    <section class="w-full relative xmd:min-h-screen  flex flex-col md:gap-4">
       <div class="w-full px-[3%] md:px-[5%] xl:px-[10%] py-[1%] flex items-start">
-       <img src="/logo.png" alt="logo" class="w-[110px]">
+       <img src="/logo.png" alt="logo" class="max-w-[110px]">
       </div>
-      <div class="mx-auto xl:w-[1124px] px-4 grid grid-cols-1 xmd:w-[1024px] xmd:grid-cols-2 gap-4 h-auto xmd:flex-grow">
+      <div class="mx-auto xl:w-[1124px] px-4 grid grid-cols-1 xmd:w-[1024px] xmd:grid-cols-2 gap-4 xmd:flex-grow ">
         <div class="col-span-1 z-30">
           <div class="w-full p-3 md:p-0">
             <h2
-              class="text-[35px] text-center xl:text-left md:text-[45px] lg:text-[50px] xl:text-[65px] leading-[1] font-sans font-bold">
+              class=" controlh2 text-[35px] text-center xl:text-left md:text-[45px] lg:text-[50px] xl:text-[65px] leading-[1] font-sans font-bold">
               Lorem ipsum dolor sit.
             </h2>
-            <p class="mt-6 font-openSans text-lg text-center xl:text-left">
+            <p class=" font-openSans text-lg text-center xl:text-left leading-6 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores perferendis assumenda a
               illo perspiciatis!
             </p>
           </div>
         </div>
-        <div class="col-span-1 z-30 p-3 md:p-0 md:w-[70%] md:mx-auto xmd:my-auto xmd:row-span-2 xmd:w-auto md:m-0">
+        <div class="col-span-1 z-30 p-3 md:p-0 md:w-[70%] md:mx-auto  place-self-start xmd:row-span-2 xmd:w-auto xmd:mt-16">
           <img src="/app.png" alt="app" class="w-full">
         </div>
-        <div class="col-span-1  z-30 p-3 xmd:mt-20 md:p-0">
-          <p class="mt-6 font-openSans text-lg text-slate-50 text-center xl:text-left">
+        <div class=" col-span-1 z-30  xmd:pt-16   ">
+          <p class="font-openSans text-lg text-slate-50 text-center xl:text-left  leading-6 pb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores perferendis assumenda a
             illo perspiciatis!
           </p>
-          <form class="flex flex-col mx-auto w-[80%] xl:w-auto xl:flex-row mt-6">
+          <form class="flex flex-col mx-auto w-[80%] xl:w-auto xl:flex-row pb-10 lg:pb-0 ">
             <input type="email" placeholder="Email"
-              class=" p-4 roun rounded-t-md xl:rounded-l-md xl:rounded-tr-none md:flex-grow  outline-none" />
+              class="p-4 roun rounded-t-md xl:rounded-l-md xl:rounded-tr-none md:flex-grow  outline-none control" />
             <button type="submit"
-              class="px-6 bg-[#E53935] text-slate-100 uppercase font-sans font-medium xl:rounded-r-md p-4">
+              class="px-6 bg-[#E53935] text-slate-100 uppercase font-sans font-medium xl:rounded-r-md p-4 control">
               Notify me
             </button>
           </form>
         </div>
       </div>
-      <div class="w-full flex items-center justify-around">
-        <a href="#test" class="flex flex-col space-y-1 font-openSans text-slate-50 z-30 pt-10 items-center">
+      <div class="w-full  hidden lg:flex items-center justify-around">
+        <a href="#test" class="flex flex-col gap-1 font-openSans text-slate-50 z-30 pb-4 items-center">
           <p class="text-sm">More Details</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down"
             viewBox="0 0 16 16">
@@ -68,6 +68,8 @@
         </div>
       </div>
     </section>
+    
+
     <!-- ======================================= -->
     <!-- Hero Section end -->
     <!-- ======================================= -->
@@ -88,7 +90,7 @@
         </div>
       </div>
       <div class="col-span-1 grid grid-cols-1 sm:grid-cols-2 gap-6 font-openSans text-center px-3 mt-4 xl:mt-0 md:px-3">
-        <div class="col-span-1 flex flex-col items-center shadow-md p-3 rounded-lg">
+        <div class="col-span-1 flex flex-col items-center custom-shadow p-3 rounded-lg">
           <img src="/brush.png" alt="icon" srcset="" class="w-3/5 p-6">
           <h3 class="text-xl font-bold mb-4 text-[#ECBD3C]">
             Lorem, ipsum.
@@ -98,7 +100,7 @@
             illo perspiciatis!
           </p>
         </div>
-        <div class="col-span-1 flex flex-col items-center shadow-md p-3 rounded-lg">
+        <div class="col-span-1 flex flex-col items-center custom-shadow p-3 rounded-lg">
           <img src="/calender.png" alt="icon" srcset="" class="w-3/5 p-6">
           <h3 class="text-xl font-bold mb-4 text-[#FF8D84]">
             Lorem, ipsum.
@@ -108,7 +110,7 @@
             illo perspiciatis!
           </p>
         </div>
-        <div class="col-span-1 flex flex-col items-center shadow-md p-3 rounded-lg">
+        <div class="col-span-1 flex flex-col items-center custom-shadow p-3 rounded-lg">
           <img src="/calender_b.png" alt="icon" srcset="" class="w-3/5 p-6">
           <h3 class="text-xl font-bold mb-4 text-[#FF8D84]">
             Lorem, ipsum.
@@ -118,7 +120,7 @@
             illo perspiciatis!
           </p>
         </div>
-        <div class="col-span-1 flex flex-col items-center shadow-md p-3 rounded-lg">
+        <div class="col-span-1 flex flex-col items-center custom-shadow p-3 rounded-lg">
           <img src="/tooth.png" alt="icon" srcset="" class="w-3/5 p-6">
           <h3 class="text-xl font-bold mb-4 text-[#1ABFCA]">
             Lorem, ipsum.
@@ -140,7 +142,7 @@
       class="mx-auto w-full xl:w-[1124px] gap-4 h-auto my-20 flex flex-col items-center justify-around px-4 md:p-0">
       <h3 class="text-[35px] sm:text-[40px] font-openSans text-[#17ABB5] font-bold text-center">Lorem, ipsum dolor.</h3>
       <div class="grid grid-cols-1 xl:w-[1124px] xl:grid-cols-3 gap-20 mt-10 p-6 xl:p-0">
-        <div class="col-span-1 flex flex-col items-center shadow-md p-6 rounded-lg ">
+        <div class="col-span-1 flex flex-col items-center custom-shadow p-6 rounded-lg ">
           <img src="/calender.png" alt="icon" srcset="" class="w-2/5 xl:w-3/5 p-7">
           <h3 class="text-2xl font-bold mb-4 text-[#FF8D84]">
             Lorem, ipsum.
@@ -149,7 +151,7 @@
            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur sint eum itaque ratione maiores et mollitia architecto? Aliquam eaque, iste sit adipisci nam porro! Ad nulla expedita eaque dignissimos sapiente!
           </p>
         </div>
-        <div class="col-span-1 flex flex-col items-center shadow-md p-6 rounded-lg">
+        <div class="col-span-1 flex flex-col items-center custom-shadow p-6 rounded-lg">
           <img src="/calender_b.png" alt="icon" srcset="" class="w-2/5 xl:w-3/5 p-7">
           <h3 class="text-2xl font-bold mb-4 text-[#FF8D84]">
             Lorem, ipsum.
@@ -158,7 +160,7 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur sint eum itaque ratione maiores et mollitia architecto? Aliquam eaque, iste sit adipisci nam porro! Ad nulla expedita eaque dignissimos sapiente!
           </p>
         </div>
-        <div class="col-span-1 flex flex-col items-center shadow-md p-6 rounded-lg ">
+        <div class="col-span-1 flex flex-col items-center custom-shadow p-6 rounded-lg ">
           <img src="/tooth.png" alt="icon" srcset="" class="w-2/5 xl:w-3/5 p-7">
           <h3 class="text-2xl font-bold mb-4 text-[#1ABFCA]">
             Lorem, ipsum.
